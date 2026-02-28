@@ -61,18 +61,33 @@
 
 # print(arr)
 
-arr = [1, 2, 3, 6, 5]
+# i = 1
+# while i < 100:
+#     print (i)
+#     i += 1
 
-is_sorted = False
-
-for i in range(len(arr) - 1):
-    if arr[i] > arr[i + 1]:
-        is_sorted = False
-        break
-
-print(is_sorted)
+# i = 100
+# while i > 1:
+#      print (i)
+#      i -= 1
 
 
+# i= 1000
+# while i >= 1:
+#     print (i)
+#     i -= 1
+
+# i=4997
+# while i <= 5000:
+#     print (i)
+#     i += 1
+
+
+
+i = 1
+while i <= 10:
+    print(i*4)
+    i+=1
 
 
 
