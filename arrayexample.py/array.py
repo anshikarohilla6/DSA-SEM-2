@@ -87,6 +87,40 @@
 #     print(i*4)
 #     i+=1
 
+# n = int(input("Enter number: "))
+# count = 0
+# while n > 0:
+#     n = n // 10
+#     count += 1
+
+# print("Total digits:", count)
+
+# n = int(input("Enter number: "))
+# rev = 0
+
+# while n > 0:
+#     digit = n % 10
+#     rev = rev * 10 + digit
+#     n = n // 10
+
+# print("Reversed number:", rev)
+
+n = int(input("Enter number: "))
+temp = n
+rev = 0
+
+while n > 0:
+    digit = n % 10
+    rev = rev * 10 + digit
+    n = n // 10
+
+if temp == rev:
+    print("Palindrome")
+else:
+    print("Not Palindrome")
+
+
+
 
 
 
