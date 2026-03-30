@@ -105,19 +105,45 @@
 
 # print("Reversed number:", rev)
 
-n = int(input("Enter number: "))
-temp = n
-rev = 0
+# n = int(input("Enter number: "))
+# temp = n
+# rev = 0
 
-while n > 0:
-    digit = n % 10
-    rev = rev * 10 + digit
-    n = n // 10
+# while n > 0:
+#     digit = n % 10
+#     rev = rev * 10 + digit
+#     n = n // 10
 
-if temp == rev:
-    print("Palindrome")
-else:
-    print("Not Palindrome")
+# if temp == rev:
+#     print("Palindrome")
+# else:
+#     print("Not Palindrome")
+
+# armstrong no-
+
+# n=int(input("enter no: "))
+# temp = n
+# sum = 0
+
+# digit = len(str(n))
+# while n>0:
+#     digit=n%10
+#     sum= sum*10+digit
+#     n=n//10
+
+# if temp == sum:
+#     print("armstrong no")
+# else:
+#     print("not armstrong no")
+
+  
+
+
+
+
+
+
+ 
 
 
 
